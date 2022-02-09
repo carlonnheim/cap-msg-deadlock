@@ -1,0 +1,120 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "npx cds run",
+      "name": "Scenario A",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "A"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario B",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "B"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario C",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "C"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario D",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "D"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario E",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "E"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario F",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "F"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario G",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "G"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "command": "npx cds run",
+      "name": "Scenario H",
+      "request": "launch",
+      "type": "node-terminal",
+      "envFile": "${workspaceFolder}/.vscode/.env",
+      "env": {
+        "DEBUG": "hana",
+        "SCENARIO": "H"
+      },
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
