@@ -49,6 +49,10 @@
             },
             "messaging": {
                 "kind": "enterprise-messaging-shared",
+                "amqp": {
+                    "incomingSessionWindow": 10
+                },
+                "outbox": false,
                 "queue": {
                     "name": "default/my/service/locktest",
                     "maxDeliveredUnackedMsgsPerFlow": 10,
